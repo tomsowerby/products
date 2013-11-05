@@ -3,12 +3,18 @@
         {
             "name": "Products",
             "description": "This is a simple API specification for a listing of products.",
-            "url": "https://github.com/ongithub/products/blob/gh-pages/products",
-            "type": "swagger",
             "image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-products.png",
-            "keywords": "products, goods"
+            "keywords": "products, goods",
+            "license": "http://creativecommons.org/licenses/by-sa/3.0/deed.en_US",
+            "attribution": "Kin Lane",
+            "definitions": [
+                {
+                    "type": "swagger",
+                    "url": "https://github.com/ongithub/products/blob/gh-pages/products"
+                }
+            ]
         }
     ],
-    "location": "api-commons-manifest",
-    "updated": "11/03/2013"
+    "tags": "api-commons-manifest",
+    "updated": "11/04/2013"
 }
