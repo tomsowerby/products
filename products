@@ -14,7 +14,7 @@
                     "method": "GET",
                     "summary": "Pulls a listing of products",
                     "notes": "Returns a list of products, allowing you to filter by keyword query.",
-                    "nickname": "getJobs",
+                    "nickname": "getProducts",
                     "type": "products",
                     "parameters": [
                         {
@@ -45,8 +45,8 @@
                     "method": "GET",
                     "summary": "Retrieve an product using its ID",
                     "notes": "Returns a products detail",
-                    "type": "people",
-                    "nickname": "getJobs",
+                    "type": "products",
+                    "nickname": "getProducts",
                     "produces": [
                         "application/json"
                     ],
